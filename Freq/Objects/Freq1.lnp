@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\sam7.o"
+".\objects\freq1.o"
+--strict --scatter ".\Objects\Freq1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Freq1.map" -o .\Objects\Freq1.axf

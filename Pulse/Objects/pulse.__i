@@ -1,0 +1,6 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections
+-I D:\Keil_v5\ARM\RV31\INC
+-I D:\Keil_v5\ARM\CMSIS\Include
+-I D:\Keil_v5\ARM\Inc\Atmel\SAM7X
+-D__UVISION_VERSION="520"
+-o .\objects\pulse.o --omf_browse .\objects\pulse.crf --depend .\objects\pulse.d "Pulse.c"

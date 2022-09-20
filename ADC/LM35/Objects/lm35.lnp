@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\sam7.o"
+".\objects\lm35.o"
+--strict --scatter ".\Objects\lm35.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lm35.map" -o .\Objects\lm35.axf

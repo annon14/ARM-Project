@@ -1,0 +1,7 @@
+Dependencies for Project 'LCD1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x53466768)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Atmel\SAM7X--pd "__UVISION_VERSION SETA 514"--list .\listings\sam7.lst --xref -o .\objects\sam7.o --depend .\objects\sam7.d)
+F (.\LCD1.c)(0x576F8BBC)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Atmel\SAM7X-D__UVISION_VERSION="514"-o .\objects\lcd1.o --omf_browse .\objects\lcd1.crf --depend .\objects\lcd1.d)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.h)(0x5346676E)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7X\pio.h)(0x50B8168E)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7X\LCD.h)(0x50B8164A)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7X\delay.h)(0x575DC0B0)

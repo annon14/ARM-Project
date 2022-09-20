@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\sam7.o"
+".\objects\tps.o"
+--strict --scatter ".\Objects\tps.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\tps.map" -o .\Objects\tps.axf

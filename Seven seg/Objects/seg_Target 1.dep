@@ -1,0 +1,6 @@
+Dependencies for Project 'seg', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x53466768)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Atmel\SAM7X--pd "__UVISION_VERSION SETA 514"--list .\listings\sam7.lst --xref -o .\objects\sam7.o --depend .\objects\sam7.d)
+F (.\seg.c)(0x5767BDB0)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Atmel\SAM7X-D__UVISION_VERSION="514"-o .\objects\seg.o --omf_browse .\objects\seg.crf --depend .\objects\seg.d)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7X\At91SAM7X256.h)(0x5346676E)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7X\delay.h)(0x575DC0B0)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7X\pio.h)(0x50B8168E)

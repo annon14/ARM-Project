@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\sam7.o"
+".\objects\7seg.o"
+--strict --scatter ".\Objects\7SEG.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\7SEG.map" -o .\Objects\7SEG.axf

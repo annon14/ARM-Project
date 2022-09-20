@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\sam7.o"
+".\objects\segupdw1sw.o"
+--strict --scatter ".\Objects\segupdw1sw.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\segupdw1sw.map" -o .\Objects\segupdw1sw.axf
